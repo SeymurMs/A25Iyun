@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(9,14,52,var(--tw-bg-opacity));
+}
+header{
+    nav{
+        .collapse{
+            .navbar-nav{
+                    .nav-item{
+                        .startup{
+                            padding-right: 15rem !important;
+                        }
+                    }
+            }
+            .d-flex{
+                a{
+                    i{
+                        font-size: 30px;
+                        color: black !important;
+                        padding-left: 10px;
+                        padding-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+#Intro{
+    background-image: url("../img/blu.about.jpg");
+    height: 700px;
+    .about{
+        padding-top: 20%;
+        text-align: center;
+        color: white;
+        }
+}
+#Features{
+    background-image: url("../img/features.png");
+    background-repeat: no-repeat;
+    height: 800x;
+    .cards{
+        padding-top: 10rem;
+        padding-right: 5px;
+        color: white;
+        i{
+            font-size: 60px;
+            padding-bottom: 20px;
+        }
+    }
+}
+#video{
+    background-image: url("../img/videobg.png");
+    height: 700px;
+    .desc{
+        text-align: center;
+        padding-top: 10%;
+        color: white;
+        h1{
+            font-weight: bold;
+        }
+    }
+    .videos{
+        display: flex;
+        justify-content: center;
+        img{
+            position: relative;
+        }
+    }
+    
+}
+#works{
+    background-image: url("../img/ueBrands.webp");
+    height: 100px;
+
+    .container{
+        border: 1px solid transparent;
+        .icons{
+            padding-top: 20px;
+            .iconsDesc{
+                display: flex;
+                align-items: center;
+                color: white;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover{
+                    color: black;
+                }
+                i{
+                    font-size: 30px;
+                    padding-right: 10px;
+                }
+               
+            }
+        }
+    }
+    
+}
+#Crafted{
+    background-color: #002D62;
+    .about{
+        padding-top: 50px;
+        text-align: center;
+        color: white;
+    }
+    .cardsInfo{
+        color: white;
+       padding: 20px;
+       i{
+        padding-right: 10px;
+        color: blue;
+       }
+    }
+    .images{
+        padding-top: 50px;
+    }
+}
+#bugFix{
+background-color: #002D62;
+img{
+    padding-top: 50px;
+    }
+    .desc{
+        padding-top: 50px;
+        color: white;
+        h1{
+            font-size: 28px;
+        }
+    }
+}
+#OurUsers{
+    background-color: #002244;
+    .ab{
+        color: white;
+        padding-top:50px ;
+        text-align: center;
+    }
+    .card{
+    background-color: #002244;
+        border: none;
+        .card-body{
+            color: white;
+            i{
+                color: yellow;
+                font-size: 16px;
+            }
+            img{
+                padding-right: 10px;
+            }
+        }
+    }
+}
+#Pricing{
+    padding: 40px;
+    background-color: #002244;
+    .about{
+        color: white !important;
+        text-align: center;
+    }
+    .card{
+        background-color: #002244;
+        border: none;
+        box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;        text-align: center;
+        color: white !important;
+
+        .card-body{
+            i{
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+#forms{
+    background-color: #002244;
+    .container{
+        .row{
+            .col-lg-6{
+                box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;        text-align: center;
+
+                .mb-3{
+                    .ab{
+                        color: wheat;
+                        text-align: center;
+                    }
+                }
+            }
+            .card{
+                    background-color: #002244;
+
+                text-align: center;
+               margin-top: 40%;
+            }
+        }
+    }
+}

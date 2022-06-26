@@ -1,0 +1,36 @@
+﻿@model List<Users>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="card-body">
+    <div class="table-responsive">
+        <table class="table">
+            <a class="btn btn-primary-soft mb-1" asp-controller="Users" asp-action="Create">Add</a>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Raiting</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                     <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Raiting</td>
+                    <td><img style="width:100px" src="~/assets/userImg/@item.ImageUrl"></td>
+                    <td><a class="btn btn-primary-soft" asp-controller="Users" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+                    <td><a class="btn btn-danger-soft"asp-controller="Users" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+                </tr>
+                }
+               
+            </tbody>
+        </table>
+    </div>
+</div>
+

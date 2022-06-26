@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(9, 14, 52, var(--tw-bg-opacity));
+}
+
+header nav .collapse .navbar-nav .nav-item .startup {
+  padding-right: 15rem !important;
+}
+
+header nav .collapse .d-flex a i {
+  font-size: 30px;
+  color: black !important;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+#Intro {
+  background-image: url("../img/blu.about.jpg");
+  height: 700px;
+}
+
+#Intro .about {
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+}
+
+#Features {
+  background-image: url("../img/features.png");
+  background-repeat: no-repeat;
+  height: 800x;
+}
+
+#Features .cards {
+  padding-top: 10rem;
+  padding-right: 5px;
+  color: white;
+}
+
+#Features .cards i {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+#video {
+  background-image: url("../img/videobg.png");
+  height: 700px;
+}
+
+#video .desc {
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+}
+
+#video .desc h1 {
+  font-weight: bold;
+}
+
+#video .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#video .videos img {
+  position: relative;
+}
+
+#works {
+  background-image: url("../img/ueBrands.webp");
+  height: 100px;
+}
+
+#works .container {
+  border: 1px solid transparent;
+}
+
+#works .container .icons {
+  padding-top: 20px;
+}
+
+#works .container .icons .iconsDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#works .container .icons .iconsDesc:hover {
+  color: black;
+}
+
+#works .container .icons .iconsDesc i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#Crafted {
+  background-color: #002D62;
+}
+
+#Crafted .about {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+#Crafted .cardsInfo {
+  color: white;
+  padding: 20px;
+}
+
+#Crafted .cardsInfo i {
+  padding-right: 10px;
+  color: blue;
+}
+
+#Crafted .images {
+  padding-top: 50px;
+}
+
+#bugFix {
+  background-color: #002D62;
+}
+
+#bugFix img {
+  padding-top: 50px;
+}
+
+#bugFix .desc {
+  padding-top: 50px;
+  color: white;
+}
+
+#bugFix .desc h1 {
+  font-size: 28px;
+}
+
+#OurUsers {
+  background-color: #002244;
+}
+
+#OurUsers .ab {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#OurUsers .card {
+  background-color: #002244;
+  border: none;
+}
+
+#OurUsers .card .card-body {
+  color: white;
+}
+
+#OurUsers .card .card-body i {
+  color: yellow;
+  font-size: 16px;
+}
+
+#OurUsers .card .card-body img {
+  padding-right: 10px;
+}
+
+#Pricing {
+  padding: 40px;
+  background-color: #002244;
+}
+
+#Pricing .about {
+  color: white !important;
+  text-align: center;
+}
+
+#Pricing .card {
+  background-color: #002244;
+  border: none;
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  text-align: center;
+  color: white !important;
+}
+
+#Pricing .card .card-body i {
+  padding-bottom: 10px;
+}
+
+#forms {
+  background-color: #002244;
+}
+
+#forms .container .row .col-lg-6 {
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  text-align: center;
+}
+
+#forms .container .row .col-lg-6 .mb-3 .ab {
+  color: wheat;
+  text-align: center;
+}
+
+#forms .container .row .card {
+  background-color: #002244;
+  text-align: center;
+  margin-top: 40%;
+}
+/*# sourceMappingURL=style.css.map */
